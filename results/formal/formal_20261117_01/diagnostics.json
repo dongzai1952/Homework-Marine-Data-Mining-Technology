@@ -1,0 +1,52 @@
+{
+  "analysis_type": "post-hoc description of existing records; no benchmark rerun or exclusion",
+  "windows": {
+    "1": {
+      "mean_candidate_row_groups_from_metadata": {
+        "pilot1": {
+          "random": 16,
+          "sorted": 1.1428571428571428
+        },
+        "pilot2": {
+          "random": 16,
+          "sorted": 1.1428571428571428
+        },
+        "formal": {
+          "random": 16,
+          "sorted": 1
+        }
+      },
+      "per_query_derived_from_measured_100_batch_median_s": {
+        "random": 0.026200758999999997,
+        "sorted": 0.0039685300000000005
+      },
+      "note": "Per-query figures here are descriptive division of an actual 100-query batch; they are never used to fabricate measured cumulative times."
+    },
+    "7": {
+      "mean_candidate_row_groups_from_metadata": {
+        "pilot1": {
+          "random": 16,
+          "sorted": 4.142857142857143
+        },
+        "pilot2": {
+          "random": 16,
+          "sorted": 4.142857142857143
+        },
+        "formal": {
+          "random": 16,
+          "sorted": 4
+        }
+      },
+      "per_query_derived_from_measured_100_batch_median_s": {
+        "random": 0.026556599,
+        "sorted": 0.009468722
+      },
+      "note": "Per-query figures here are descriptive division of an actual 100-query batch; they are never used to fabricate measured cumulative times."
+    }
+  },
+  "observations": [
+    "Date start changes row-group boundary overlap. All six heldout 1-day windows have one candidate group; 7-day windows have four. This limits extrapolation to other date windows.",
+    "At N=30 for 7-day queries, median of paired differences is negative while difference of separate medians is positive. Both retained; preregistered paired comparison governs crossing.",
+    "Runtime variation is observed, but CPU scheduling/background activity causes were not measured; do not assert a specific cause."
+  ]
+}

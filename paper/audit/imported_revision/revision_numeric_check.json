@@ -1,0 +1,23 @@
+{
+  "main_1day": {
+    "sustained_positive": 24,
+    "first_all_five_10pct": 28
+  },
+  "main_7day": {
+    "sustained_positive": 31,
+    "first_all_five_10pct": 36
+  },
+  "supp_inside": {
+    "median_10pct": 24,
+    "all_five_10pct": 26
+  },
+  "supp_cross": {
+    "median_10pct": 26,
+    "all_five_10pct": 28
+  },
+  "macros_match_existing_ledger": 97,
+  "raw_sources_sha256": {
+    "results\\formal\\formal_20261117_01\\measurements.json": "cfaafca85cc45396c30d9f0cbd1144aa221744775e6ed5a3e5b4bbf254d817a9",
+    "results\\supplement\\boundary_20261118_01\\measurements.json": "bf440db3ad1b1fb8eecbd94810abdc56c76d3a2a21329a67404d8ba1d91ee962"
+  }
+}

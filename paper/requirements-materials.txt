@@ -1,0 +1,4 @@
+# Used for paper material generation, not historical experiments.
+svglib==2.4.0
+reportlab==5.1.0
+pypdf==6.21.4

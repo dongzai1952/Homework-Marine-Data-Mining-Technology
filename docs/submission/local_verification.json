@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-18T18:15:38.861574+00:00",
+  "pdf_pages": 15,
+  "homepage_author_and_repository_match": true,
+  "frozen_paper_entries_checked": 17,
+  "previous_delivery_hashes_unchanged": 32,
+  "historical_files_unchanged": 53,
+  "paper_materials_verify": {
+    "ok": true,
+    "macros": 97,
+    "paired_windows": 6,
+    "error_points": 76,
+    "new_timing": false
+  },
+  "history_verify": {
+    "ok": true,
+    "hashes_checked": 26,
+    "main_pairs_checked": 190
+  },
+  "chat_user_messages": 24,
+  "chat_assistant_messages": 86,
+  "chat_snapshot_boundary_documented": true,
+  "readme_local_links_valid": true,
+  "submission_candidates": 105,
+  "candidate_bytes": 6632419,
+  "excluded_local_only": [
+    "data/",
+    ".deps/",
+    ".cache/",
+    "archive/paper_history/",
+    "paper compilation intermediates"
+  ],
+  "new_experiments": false,
+  "uploaded": false,
+  "file_anonymous_access_verified": false
+}

@@ -1,0 +1,71 @@
+{
+  "new_timing": false,
+  "script_sha256": "7e66c033b484f0cfec1ed040cf4906f5d9b0d6604cc2a84a811a07c187411cdd",
+  "input_sha256": {
+    "results/formal/formal_20261117_01/measurements.json": "cfaafca85cc45396c30d9f0cbd1144aa221744775e6ed5a3e5b4bbf254d817a9",
+    "results/formal/formal_20261117_01/criteria_audit.json": "6bc83b80e44a31f8594209f2cd82cd3e8702a7e44d77d8ae908140b16b805e5d",
+    "results/formal/formal_20261117_01/config_frozen.json": "f0478753baeed484a12c4bc78a8115e44f5dabe71683d3a74f86abdbc91fd029",
+    "results/supplement/boundary_20261118_01/measurements.json": "bf440db3ad1b1fb8eecbd94810abdc56c76d3a2a21329a67404d8ba1d91ee962",
+    "results/supplement/boundary_20261118_01/summary.json": "b3aaefd9e156c6f015661ab0ce014652edffb0499e23d6cfc9be2bca43fb4918",
+    "results/posthoc/error_metrics_v2/error_comparison.json": "241f8db4e5cc6e3ba797c5f4f5c148e7d8ce6f6a6f6461cbe15f499d09a3556f",
+    "results/formal/formal_20261117_01/cumulative_time.svg": "8066d65201d89564463f84b979df5c7fce2ca400cf0fa1b7b7d0222afb1270d1",
+    "results/supplement/boundary_20261118_01/boundary_comparison.svg": "35c27a179411d3967fadaea715407d5188308da6def911861da10830d0137ddf"
+  },
+  "numeric_macros": 97,
+  "paired_windows": 6,
+  "posthoc_error_points": 76,
+  "crops_top_origin_pt": {
+    "main_day1.pdf": [
+      "main",
+      [
+        20,
+        90,
+        505,
+        358
+      ]
+    ],
+    "main_day7.pdf": [
+      "main",
+      [
+        508,
+        90,
+        1000,
+        358
+      ]
+    ],
+    "supp_single.pdf": [
+      "supplement",
+      [
+        0,
+        50,
+        405,
+        356
+      ]
+    ],
+    "supp_batch.pdf": [
+      "supplement",
+      [
+        810,
+        50,
+        1224,
+        356
+      ]
+    ]
+  },
+  "versions": {
+    "svglib": "2.4.0",
+    "reportlab": "5.1.0",
+    "pypdf": "6.21.4"
+  },
+  "figure_sha256": {
+    "figures/main_day1.pdf": "670684144e9019ecd6a61b5b43243eaba1ed4042e1c15943034f23f9581806cc",
+    "figures/main_day7.pdf": "5e6897404d7c5691b84b5b4cf52b6af93af7f62880ae159fed82b2f12591da6e",
+    "figures/supp_batch.pdf": "113d04c8caa81877ae84672e85962fea484487478c0fa52ee57838e4e9fef214",
+    "figures/supp_single.pdf": "29ed50ef70c60f8fe6b2e72a8e76e6d3d16293c161f95f764affef3777a99135",
+    "figures/source/main.pdf": "6f16ef4939a2dbef6883b73db5454af2f742d5874c28644c2db888f1a45a5f20",
+    "figures/source/main.svg": "8066d65201d89564463f84b979df5c7fce2ca400cf0fa1b7b7d0222afb1270d1",
+    "figures/source/supplement.pdf": "d82c28b8480af5457dd4e25f66da38c2653dc0db027e9f311d90abfb1258d5a7",
+    "figures/source/supplement.svg": "35c27a179411d3967fadaea715407d5188308da6def911861da10830d0137ddf"
+  },
+  "note": "Existing SVG paths only; no data or axes altered. PDF byte hashes may change with library versions/metadata; inspect rendered output."
+}

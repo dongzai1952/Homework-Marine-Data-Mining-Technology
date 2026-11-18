@@ -1,0 +1,34 @@
+{
+  "change": "Organization only; main script paths made relative to project folder. No experiments rerun.",
+  "original_script_sha256": "24129399589078daf2328cfd0c93e507795e57b9eb0b9a459bb428729e452a2d",
+  "current_script_sha256": "28f3bfb35cdf2f2e30a493f41099fbcb730b61a9a986ae12d5c6b5afca5aba06",
+  "verified_copies": [
+    {
+      "path": "docs\\最小实验方案.md",
+      "sha256": "5e6371478b37c6d29080df733f6a19722c481a61d46d824745cc371d709c550b",
+      "bytes": 6189
+    },
+    {
+      "path": "results\\pilot\\pilot_1m_run1.json",
+      "sha256": "a56e09656e197a8840fec6b52a87b6cbde90750fc8aaaa1f748acedc031f43e8",
+      "bytes": 20637
+    },
+    {
+      "path": "results\\pilot\\pilot_1m_run2.json",
+      "sha256": "d76809231fa26ab567a9742655e680f39868eeeef92c863db38e208135a300a9",
+      "bytes": 20616
+    },
+    {
+      "path": "data\\pilot\\1000000\\random.parquet",
+      "sha256": "1decfa8a5bf59125650d45b12d1b7ab2d94e3cda437ef40ed1e95954e342b46b",
+      "bytes": 16665663
+    },
+    {
+      "path": "data\\pilot\\1000000\\time_sorted.parquet",
+      "sha256": "5ee088818b95ce2c6517d4f95ec0a36b718265863278d18e3ec21293f814ea09",
+      "bytes": 16027428
+    }
+  ],
+  "post_copy_doc_edit": "Updated data path reference in docs/最小实验方案.md to data/pilot/.",
+  "current_plan_sha256": "a85b425298d15497975fc82da65ebb4c3b8eaca017fd97692120ea41a765d5a9"
+}

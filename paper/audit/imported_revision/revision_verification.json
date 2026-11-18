@@ -1,0 +1,63 @@
+{
+  "version": "原创探索详解版",
+  "date": "2026-11-18",
+  "pages": 14,
+  "new_section": "第5节：原创探索与创新点的具体拆解",
+  "new_section_pages": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "compiled_with": "XeLaTeX and Biber, TeX Live 2026",
+  "all_pages_visually_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "log_no_box_glyph_or_reference_warnings": true,
+  "key_thresholds_recomputed_from_raw_measurements": true,
+  "numeric_macros_unchanged_and_match_existing_ledger": 97,
+  "figures_metadata_and_bibliography_unchanged": true,
+  "new_performance_experiments": false,
+  "github_uploaded": false,
+  "source_paper_overwritten": false,
+  "contribution_attribution": "Both AI chats disclosed; adopted AI proposals not presented as independent personal inventions.",
+  "limitations": [
+    "Repository public state and complete chat exports not checked.",
+    "New-machine experiment reproducibility not rerun."
+  ],
+  "files": {
+    "compile.ps1": "73cf84cbf658f288acadcf90e3d693a8a5fef86952deb4ccec58839f8d3f5516",
+    "data_macros.tex": "a8b2c464bde2247fed2eb9ceca4320cfbc3b0e67d6ea1cf79168f64058da5f24",
+    "innovation.tex": "3c1c1d114c3429077479e5e8266e7acc1ac3843e72f23f2d4f5e2af9348760d6",
+    "main.pdf": "7cbe8854056fe536a18820b1f172f0f761697ad2a6de0b8cd61720b4eceb1aa9",
+    "main.tex": "60cb333e25dd140822973f892c501db42b96cf4dddd526db83ca379625dc0b6c",
+    "metadata.tex": "5fd43a22a4206655b1d09c22ee7acebb9ad4388f7279b4b2bd5d22430342b9a0",
+    "references.bib": "4ea6210d34627a21ed8d9866c8860153e2d08e7a2eebc27cab4afe56fb1c482f",
+    "audit\\main.blg": "6839a1a221f5c928cbb5a471cfedfa6f5660f162e868ee60383d262dee2c2c5b",
+    "audit\\main.log": "e57bf2e44c671bc334c52691f6dc8ee1238df24489463ebfea8a6f40c4a25785",
+    "audit\\numeric_sources.json": "963901aeb83aaabbf24ee9eedd6fc96907897c1a01a8e3d19d173a995b6133c8",
+    "audit\\revision_numeric_check.json": "a64f7a7b222fc3f99a8f611098cb9c89fe84920ef97e59c929bbf119cfb5d24e",
+    "figures\\main_day1.pdf": "670684144e9019ecd6a61b5b43243eaba1ed4042e1c15943034f23f9581806cc",
+    "figures\\main_day7.pdf": "5e6897404d7c5691b84b5b4cf52b6af93af7f62880ae159fed82b2f12591da6e",
+    "figures\\supp_batch.pdf": "113d04c8caa81877ae84672e85962fea484487478c0fa52ee57838e4e9fef214",
+    "figures\\supp_single.pdf": "29ed50ef70c60f8fe6b2e72a8e76e6d3d16293c161f95f764affef3777a99135",
+    "figures\\source\\criteria_audit.png": "874770eb97628189ca7d2ed5ec7b9bccadf20c14921d7796842faf702aae432d",
+    "figures\\source\\main.pdf": "e861e27a99bed65950e9b2833869017daf39fa91cfbb1c0f023fa70d17661d53",
+    "figures\\source\\main.svg": "8066d65201d89564463f84b979df5c7fce2ca400cf0fa1b7b7d0222afb1270d1",
+    "figures\\source\\supplement.pdf": "063387069898f3a1911101e48da5a2892da665c17ed8eb1283167c9feecf71ee",
+    "figures\\source\\supplement.svg": "35c27a179411d3967fadaea715407d5188308da6def911861da10830d0137ddf"
+  }
+}

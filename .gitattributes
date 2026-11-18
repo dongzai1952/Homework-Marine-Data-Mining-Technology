@@ -1,0 +1,2 @@
+# Preserve exact historical bytes for recorded SHA-256 checks on every platform.
+* -text

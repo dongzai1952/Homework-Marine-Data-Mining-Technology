@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-11-18T13:55:22.647155+08:00",
+  "files": {
+    "boundary_comparison.png": "a8ed8c15476d346d65f831e1ac3e707951a8399696ccc46e3a40bbce68039108",
+    "boundary_comparison.svg": "35c27a179411d3967fadaea715407d5188308da6def911861da10830d0137ddf",
+    "config_frozen.json": "98e7f0a1957cdb15d91b9030ae2f5b9e8252e2bf08ac70cf1ffe99237a97cdcd",
+    "events.jsonl": "c93a8988d0edd87907c555f911c27e1a4fb858a0fedde6950360bdc7b3e36081",
+    "freeze_manifest.json": "4aab3027bf734ee1a15d8f8ceb365c941ebca8378dfa37f250812d40254abb27",
+    "measurements.json": "bf440db3ad1b1fb8eecbd94810abdc56c76d3a2a21329a67404d8ba1d91ee962",
+    "protocol_frozen.md": "a5330df9ea621572b0e8e436f4912be75f61a44371911b0f3af682cdb5453a2f",
+    "summary.json": "b3aaefd9e156c6f015661ab0ce014652edffb0499e23d6cfc9be2bca43fb4918",
+    "windows_frozen.json": "d997fc0c59467a8dfdd2f22ada10429fd964f1b5936f5b38889758f199cad01c"
+  },
+  "script_sha256": "7f1f6060af3b545197a585da393d378e3b639fbbe657f2ec0aa1530afbc9fd8a"
+}

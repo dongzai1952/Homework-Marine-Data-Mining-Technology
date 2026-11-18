@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering\small
+\caption{六对窗口的同轮查询阶段节省差值}\label{tab:paired-saving}
+\begin{tabular}{@{}crcc@{}}
+\toprule
+窗口对 & 差值中位数（毫秒） & 差值为正的轮数 & 总轮数\\
+\midrule
+1 & 0.1519 & 5 & 9\\
+2 & 0.4650 & 5 & 9\\
+3 & 3.1997 & 7 & 9\\
+4 & 3.3569 & 6 & 9\\
+5 & 1.2997 & 8 & 9\\
+6 & 1.5348 & 6 & 9\\
+\bottomrule
+\end{tabular}
+\tabnote{每轮差值为 $(U_{\text{组内}}-S_{\text{组内}})-(U_{\text{跨界}}-S_{\text{跨界}})$，先逐轮配对再取九轮中位数；单位为毫秒，未扣除重排成本。正值表示该轮组内窗口的查询阶段节省更多。}
+\end{table}

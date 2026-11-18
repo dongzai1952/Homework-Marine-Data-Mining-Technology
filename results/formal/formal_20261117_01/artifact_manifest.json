@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "results\\formal\\formal_20261117_01\\config_frozen.json",
+      "sha256": "f0478753baeed484a12c4bc78a8115e44f5dabe71683d3a74f86abdbc91fd029",
+      "bytes": 38094
+    },
+    {
+      "path": "results\\formal\\formal_20261117_01\\cumulative_time.png",
+      "sha256": "bce11c4908bd35987ac13bc5d38f97e335f0688a0d0dc324df829480f65b7cb1",
+      "bytes": 440218
+    },
+    {
+      "path": "results\\formal\\formal_20261117_01\\cumulative_time.svg",
+      "sha256": "8066d65201d89564463f84b979df5c7fce2ca400cf0fa1b7b7d0222afb1270d1",
+      "bytes": 185930
+    },
+    {
+      "path": "results\\formal\\formal_20261117_01\\diagnostics.json",
+      "sha256": "43efb3a6c38307c9ccdadd8ce2b2aeff799d00c06925702fe9c4797e8bfa9c28",
+      "bytes": 1974
+    },
+    {
+      "path": "results\\formal\\formal_20261117_01\\events.jsonl",
+      "sha256": "8f8e988b486de21cf2d3a1fb83e28f5773cf77678d4558d6c71015cd719ccd35",
+      "bytes": 92551
+    },
+    {
+      "path": "results\\formal\\formal_20261117_01\\measurements.json",
+      "sha256": "cfaafca85cc45396c30d9f0cbd1144aa221744775e6ed5a3e5b4bbf254d817a9",
+      "bytes": 153800
+    },
+    {
+      "path": "results\\formal\\formal_20261117_01\\net_saving_zoom.png",
+      "sha256": "065f43bd418b81bd3f3c63fd2a7063d2e9855ac21c0068e0e4899d3aef8fc06f",
+      "bytes": 180240
+    },
+    {
+      "path": "results\\formal\\formal_20261117_01\\preparation.json",
+      "sha256": "b892129f6a294e79d7e4c52f984d2871dd0ded71c935ab46e2097f19896e1fbf",
+      "bytes": 11482
+    },
+    {
+      "path": "results\\formal\\formal_20261117_01\\summary.json",
+      "sha256": "f70835183005d044f6f6e584fc2956d8f872be6d7ceefbe25a9ec99f460acdbc",
+      "bytes": 28365
+    }
+  ]
+}

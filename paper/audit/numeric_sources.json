@@ -1,0 +1,487 @@
+{
+  "SortCost": {
+    "value": 0.5079524,
+    "formatted": "0.5079524",
+    "source": "main measurements: R_median_s"
+  },
+  "MainOneNetN": {
+    "value": 24,
+    "formatted": "24",
+    "source": "raw main batches: all five positive and sustained"
+  },
+  "MainOneAnyN": {
+    "value": 23,
+    "formatted": "23",
+    "source": "raw main batches: any positive"
+  },
+  "MainOneTenN": {
+    "value": 28,
+    "formatted": "28",
+    "source": "raw main batches: all five >=10%"
+  },
+  "MainOneNetPct": {
+    "value": 2.8751511894858552,
+    "formatted": "2.88",
+    "source": "raw paired percentage at net N"
+  },
+  "MainOneSavingMs": {
+    "value": 17.892500000000034,
+    "formatted": "17.89",
+    "source": "raw paired saving at net N"
+  },
+  "MainOneSingleRaw": {
+    "value": 0.0254561,
+    "formatted": "0.025456",
+    "source": "main raw median: random_query_batch_s days=1 N=1"
+  },
+  "MainOneSingleQuery": {
+    "value": 0.0042943,
+    "formatted": "0.004294",
+    "source": "main raw median: sorted_query_batch_s days=1 N=1"
+  },
+  "MainOneSingleTotal": {
+    "value": 0.5122466999999999,
+    "formatted": "0.512247",
+    "source": "main raw median: sorted_total_s days=1 N=1"
+  },
+  "MainOneHundredRaw": {
+    "value": 2.6200759,
+    "formatted": "2.620076",
+    "source": "main raw median: random_query_batch_s days=1 N=100"
+  },
+  "MainOneHundredQuery": {
+    "value": 0.396853,
+    "formatted": "0.396853",
+    "source": "main raw median: sorted_query_batch_s days=1 N=100"
+  },
+  "MainOneHundredTotal": {
+    "value": 0.9048054,
+    "formatted": "0.904805",
+    "source": "main raw median: sorted_total_s days=1 N=100"
+  },
+  "MainOneTwentyEightRaw": {
+    "value": 0.727323,
+    "formatted": "0.727323",
+    "source": "main raw median: random_query_batch_s days=1 N=28"
+  },
+  "MainOneTwentyEightQuery": {
+    "value": 0.1106141,
+    "formatted": "0.110614",
+    "source": "main raw median: sorted_query_batch_s days=1 N=28"
+  },
+  "MainOneTwentyEightTotal": {
+    "value": 0.6185665,
+    "formatted": "0.618567",
+    "source": "main raw median: sorted_total_s days=1 N=28"
+  },
+  "MainSevenNetN": {
+    "value": 31,
+    "formatted": "31",
+    "source": "raw main batches: all five positive and sustained"
+  },
+  "MainSevenAnyN": {
+    "value": 25,
+    "formatted": "25",
+    "source": "raw main batches: any positive"
+  },
+  "MainSevenTenN": {
+    "value": 36,
+    "formatted": "36",
+    "source": "raw main batches: all five >=10%"
+  },
+  "MainSevenNetPct": {
+    "value": 2.453058065497785,
+    "formatted": "2.45",
+    "source": "raw paired percentage at net N"
+  },
+  "MainSevenSavingMs": {
+    "value": 20.120099999999972,
+    "formatted": "20.12",
+    "source": "raw paired saving at net N"
+  },
+  "MainSevenSingleRaw": {
+    "value": 0.0262525,
+    "formatted": "0.026253",
+    "source": "main raw median: random_query_batch_s days=7 N=1"
+  },
+  "MainSevenSingleQuery": {
+    "value": 0.0091877,
+    "formatted": "0.009188",
+    "source": "main raw median: sorted_query_batch_s days=7 N=1"
+  },
+  "MainSevenSingleTotal": {
+    "value": 0.5171401,
+    "formatted": "0.517140",
+    "source": "main raw median: sorted_total_s days=7 N=1"
+  },
+  "MainSevenHundredRaw": {
+    "value": 2.6556599,
+    "formatted": "2.655660",
+    "source": "main raw median: random_query_batch_s days=7 N=100"
+  },
+  "MainSevenHundredQuery": {
+    "value": 0.9468722,
+    "formatted": "0.946872",
+    "source": "main raw median: sorted_query_batch_s days=7 N=100"
+  },
+  "MainSevenHundredTotal": {
+    "value": 1.4548246,
+    "formatted": "1.454825",
+    "source": "main raw median: sorted_total_s days=7 N=100"
+  },
+  "MainSevenTwentyEightRaw": {
+    "value": 0.7340179,
+    "formatted": "0.734018",
+    "source": "main raw median: random_query_batch_s days=7 N=28"
+  },
+  "MainSevenTwentyEightQuery": {
+    "value": 0.2610679,
+    "formatted": "0.261068",
+    "source": "main raw median: sorted_query_batch_s days=7 N=28"
+  },
+  "MainSevenTwentyEightTotal": {
+    "value": 0.7690203,
+    "formatted": "0.769020",
+    "source": "main raw median: sorted_total_s days=7 N=28"
+  },
+  "SuppInsideTwentyFourPct": {
+    "value": 10.931358146285913,
+    "formatted": "10.93",
+    "source": "supp raw paired percentage N=24"
+  },
+  "SuppInsideTwentyFourPass": {
+    "value": 4,
+    "formatted": "4",
+    "source": "supp raw passes N=24"
+  },
+  "SuppInsideTwentySixPct": {
+    "value": 19.477686036111947,
+    "formatted": "19.48",
+    "source": "supp raw paired percentage N=26"
+  },
+  "SuppInsideTwentySixPass": {
+    "value": 5,
+    "formatted": "5",
+    "source": "supp raw passes N=26"
+  },
+  "SuppInsideTwentySevenPct": {
+    "value": 19.55219522519755,
+    "formatted": "19.55",
+    "source": "supp raw paired percentage N=27"
+  },
+  "SuppInsideTwentySevenPass": {
+    "value": 5,
+    "formatted": "5",
+    "source": "supp raw passes N=27"
+  },
+  "SuppInsideTwentyEightPct": {
+    "value": 20.78626333580785,
+    "formatted": "20.79",
+    "source": "supp raw paired percentage N=28"
+  },
+  "SuppInsideTwentyEightPass": {
+    "value": 5,
+    "formatted": "5",
+    "source": "supp raw passes N=28"
+  },
+  "SuppInsideMedianN": {
+    "value": 24,
+    "formatted": "24",
+    "source": "supp raw first median>=10%"
+  },
+  "SuppInsideAllN": {
+    "value": 26,
+    "formatted": "26",
+    "source": "supp raw first all five>=10%"
+  },
+  "SuppInsideQueryMs": {
+    "value": 4.28355,
+    "formatted": "4.28",
+    "source": "supp summary: median of six window medians (unit ms)"
+  },
+  "SuppInsideSavingMs": {
+    "value": 23.79485,
+    "formatted": "23.79",
+    "source": "supp summary: median of six window medians (unit ms)"
+  },
+  "SuppInsideTwentyEightRaw": {
+    "value": 0.8025708,
+    "formatted": "0.802571",
+    "source": "supp raw batch N=28 random_batch_s"
+  },
+  "SuppInsideTwentyEightQuery": {
+    "value": 0.1259039,
+    "formatted": "0.125904",
+    "source": "supp raw batch N=28 sorted_batch_s"
+  },
+  "SuppCrossTwentyFourPct": {
+    "value": 2.947551447109183,
+    "formatted": "2.95",
+    "source": "supp raw paired percentage N=24"
+  },
+  "SuppCrossTwentyFourPass": {
+    "value": 1,
+    "formatted": "1",
+    "source": "supp raw passes N=24"
+  },
+  "SuppCrossTwentySixPct": {
+    "value": 12.775127451373852,
+    "formatted": "12.78",
+    "source": "supp raw paired percentage N=26"
+  },
+  "SuppCrossTwentySixPass": {
+    "value": 3,
+    "formatted": "3",
+    "source": "supp raw passes N=26"
+  },
+  "SuppCrossTwentySevenPct": {
+    "value": 13.998194348241633,
+    "formatted": "14.00",
+    "source": "supp raw paired percentage N=27"
+  },
+  "SuppCrossTwentySevenPass": {
+    "value": 3,
+    "formatted": "3",
+    "source": "supp raw passes N=27"
+  },
+  "SuppCrossTwentyEightPct": {
+    "value": 14.889189974477459,
+    "formatted": "14.89",
+    "source": "supp raw paired percentage N=28"
+  },
+  "SuppCrossTwentyEightPass": {
+    "value": 5,
+    "formatted": "5",
+    "source": "supp raw passes N=28"
+  },
+  "SuppCrossMedianN": {
+    "value": 26,
+    "formatted": "26",
+    "source": "supp raw first median>=10%"
+  },
+  "SuppCrossAllN": {
+    "value": 28,
+    "formatted": "28",
+    "source": "supp raw first all five>=10%"
+  },
+  "SuppCrossQueryMs": {
+    "value": 5.933400000000001,
+    "formatted": "5.93",
+    "source": "supp summary: median of six window medians (unit ms)"
+  },
+  "SuppCrossSavingMs": {
+    "value": 22.86995,
+    "formatted": "22.87",
+    "source": "supp summary: median of six window medians (unit ms)"
+  },
+  "SuppCrossTwentyEightRaw": {
+    "value": 0.8081388,
+    "formatted": "0.808139",
+    "source": "supp raw batch N=28 random_batch_s"
+  },
+  "SuppCrossTwentyEightQuery": {
+    "value": 0.1757367,
+    "formatted": "0.175737",
+    "source": "supp raw batch N=28 sorted_batch_s"
+  },
+  "PilotOneDayOneTotalMax": {
+    "value": 7.108916139808789,
+    "formatted": "7.11",
+    "source": "posthoc errors pilot_1m_run1.json 1 days"
+  },
+  "PilotOneDayOneTotalMaxN": {
+    "value": 100,
+    "formatted": "100",
+    "source": "posthoc argmax max_total_error"
+  },
+  "PilotOneDayOneQueryMax": {
+    "value": 13.16807841787232,
+    "formatted": "13.17",
+    "source": "posthoc errors pilot_1m_run1.json 1 days"
+  },
+  "PilotOneDayOneQueryMaxN": {
+    "value": 40,
+    "formatted": "40",
+    "source": "posthoc argmax max_query_error"
+  },
+  "PilotOneDayOneSingleShare": {
+    "value": 99.16167346710093,
+    "formatted": "99.16",
+    "source": "posthoc point N=1"
+  },
+  "PilotOneDayOneSingleTotalErr": {
+    "value": 2.9683097115184816,
+    "formatted": "2.97",
+    "source": "posthoc point N=1"
+  },
+  "PilotOneDayOneSingleQueryErr": {
+    "value": 3.890472752918319,
+    "formatted": "3.89",
+    "source": "posthoc point N=1"
+  },
+  "PilotOneDayOneHundredShare": {
+    "value": 56.13940854022312,
+    "formatted": "56.14",
+    "source": "posthoc point N=100"
+  },
+  "PilotOneDayOneHundredTotalErr": {
+    "value": 7.108916139808789,
+    "formatted": "7.11",
+    "source": "posthoc point N=100"
+  },
+  "PilotOneDayOneHundredQueryErr": {
+    "value": 12.418668157442958,
+    "formatted": "12.42",
+    "source": "posthoc point N=100"
+  },
+  "PilotOneDaySevenTotalMax": {
+    "value": 4.357526550108951,
+    "formatted": "4.36",
+    "source": "posthoc errors pilot_1m_run1.json 7 days"
+  },
+  "PilotOneDaySevenTotalMaxN": {
+    "value": 40,
+    "formatted": "40",
+    "source": "posthoc argmax max_total_error"
+  },
+  "PilotOneDaySevenQueryMax": {
+    "value": 8.26801049228859,
+    "formatted": "8.27",
+    "source": "posthoc errors pilot_1m_run1.json 7 days"
+  },
+  "PilotOneDaySevenQueryMaxN": {
+    "value": 1,
+    "formatted": "1",
+    "source": "posthoc argmax max_query_error"
+  },
+  "PilotOneDaySevenSingleShare": {
+    "value": 98.22336345605378,
+    "formatted": "98.22",
+    "source": "posthoc point N=1"
+  },
+  "PilotOneDaySevenSingleTotalErr": {
+    "value": 3.0548085463889434,
+    "formatted": "3.05",
+    "source": "posthoc point N=1"
+  },
+  "PilotOneDaySevenSingleQueryErr": {
+    "value": 8.26801049228859,
+    "formatted": "8.27",
+    "source": "posthoc point N=1"
+  },
+  "PilotOneDaySevenHundredShare": {
+    "value": 34.91502686990582,
+    "formatted": "34.92",
+    "source": "posthoc point N=100"
+  },
+  "PilotOneDaySevenHundredTotalErr": {
+    "value": 4.323531508307195,
+    "formatted": "4.32",
+    "source": "posthoc point N=100"
+  },
+  "PilotOneDaySevenHundredQueryErr": {
+    "value": 5.054726498465141,
+    "formatted": "5.05",
+    "source": "posthoc point N=100"
+  },
+  "PilotTwoDayOneTotalMax": {
+    "value": 3.9794034172753947,
+    "formatted": "3.98",
+    "source": "posthoc errors pilot_1m_run2.json 1 days"
+  },
+  "PilotTwoDayOneTotalMaxN": {
+    "value": 100,
+    "formatted": "100",
+    "source": "posthoc argmax max_total_error"
+  },
+  "PilotTwoDayOneQueryMax": {
+    "value": 10.797858365871553,
+    "formatted": "10.80",
+    "source": "posthoc errors pilot_1m_run2.json 1 days"
+  },
+  "PilotTwoDayOneQueryMaxN": {
+    "value": 40,
+    "formatted": "40",
+    "source": "posthoc argmax max_query_error"
+  },
+  "PilotTwoDayOneSingleShare": {
+    "value": 99.16167346710093,
+    "formatted": "99.16",
+    "source": "posthoc point N=1"
+  },
+  "PilotTwoDayOneSingleTotalErr": {
+    "value": 0.7536157019920697,
+    "formatted": "0.75",
+    "source": "posthoc point N=1"
+  },
+  "PilotTwoDayOneSingleQueryErr": {
+    "value": 1.7145651544738651,
+    "formatted": "1.71",
+    "source": "posthoc point N=1"
+  },
+  "PilotTwoDayOneHundredShare": {
+    "value": 56.13940854022312,
+    "formatted": "56.14",
+    "source": "posthoc point N=100"
+  },
+  "PilotTwoDayOneHundredTotalErr": {
+    "value": 3.9794034172753947,
+    "formatted": "3.98",
+    "source": "posthoc point N=100"
+  },
+  "PilotTwoDayOneHundredQueryErr": {
+    "value": 10.064143938147648,
+    "formatted": "10.06",
+    "source": "posthoc point N=100"
+  },
+  "PilotTwoDaySevenTotalMax": {
+    "value": 2.1882323629651337,
+    "formatted": "2.19",
+    "source": "posthoc errors pilot_1m_run2.json 7 days"
+  },
+  "PilotTwoDaySevenTotalMaxN": {
+    "value": 100,
+    "formatted": "100",
+    "source": "posthoc argmax max_total_error"
+  },
+  "PilotTwoDaySevenQueryMax": {
+    "value": 6.951809795394152,
+    "formatted": "6.95",
+    "source": "posthoc errors pilot_1m_run2.json 7 days"
+  },
+  "PilotTwoDaySevenQueryMaxN": {
+    "value": 1,
+    "formatted": "1",
+    "source": "posthoc argmax max_query_error"
+  },
+  "PilotTwoDaySevenSingleShare": {
+    "value": 98.22336345605378,
+    "formatted": "98.22",
+    "source": "posthoc point N=1"
+  },
+  "PilotTwoDaySevenSingleTotalErr": {
+    "value": 0.6372139207524924,
+    "formatted": "0.64",
+    "source": "posthoc point N=1"
+  },
+  "PilotTwoDaySevenSingleQueryErr": {
+    "value": 6.951809795394152,
+    "formatted": "6.95",
+    "source": "posthoc point N=1"
+  },
+  "PilotTwoDaySevenHundredShare": {
+    "value": 34.91502686990582,
+    "formatted": "34.92",
+    "source": "posthoc point N=100"
+  },
+  "PilotTwoDaySevenHundredTotalErr": {
+    "value": 2.1882323629651337,
+    "formatted": "2.19",
+    "source": "posthoc point N=100"
+  },
+  "PilotTwoDaySevenHundredQueryErr": {
+    "value": 3.7775892942197298,
+    "formatted": "3.78",
+    "source": "posthoc point N=100"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "historical_artifacts_unchanged": true,
+    "thresholds_match_saved_results": true,
+    "all_existing_results_table_rows_retained": true,
+    "local_link_count": 27,
+    "relative_figures_match_original_bytes": true,
+    "draft_placeholders_and_fences_present": true
+  },
+  "inputs": {
+    "docs\\研究问题与结果分析_草稿_v2.md": "51100d79f9a84144e8911458272f78c991aa63ab70a5ce7adbc297180c089637",
+    "docs\\数据与实验方法_草稿_v1.md": "dbb6cada32c059b2653bb00e74deadc7d32600e1d4aa66893824ffdaedd1e9eb",
+    "results\\formal\\formal_20261117_01\\criteria_audit.json": "6bc83b80e44a31f8594209f2cd82cd3e8702a7e44d77d8ae908140b16b805e5d",
+    "results\\supplement\\boundary_20261118_01\\summary.json": "b3aaefd9e156c6f015661ab0ce014652edffb0499e23d6cfc9be2bca43fb4918"
+  },
+  "report_files": {
+    "README.md": "ad7c92c0750332f6f4c440b2c8ee1dcacf15af4d69f581de4de8071077a0fb11",
+    "完整报告_v1.md": "9347dee785344400434006a35f1e5f891b92beff03edea552c38b5a7ac5225fa",
+    "引用核查记录_v1.md": "909e9e4b501c1df1701f3694bbe87d9f08e070c010abf225e4d2d9a3c1de154a",
+    "figures\\01_main_cumulative.png": "bce11c4908bd35987ac13bc5d38f97e335f0688a0d0dc324df829480f65b7cb1",
+    "figures\\02_main_criteria.png": "874770eb97628189ca7d2ed5ec7b9bccadf20c14921d7796842faf702aae432d",
+    "figures\\03_boundary_supplement.png": "a8ed8c15476d346d65f831e1ac3e707951a8399696ccc46e3a40bbce68039108"
+  },
+  "note": "Report-only assembly; relative files checked against project structure. No performance queries or new timing."
+}

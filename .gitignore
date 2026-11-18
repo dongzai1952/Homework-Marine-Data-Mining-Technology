@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+data/
+*.tmp
+
+.deps/
+.cache/
+
+reproductions/
+review_output/
+
+.venv-paper/
+paper/*.aux
+paper/*.bcf
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.run.xml
+
+# Local paper replacement backups; historical experimental records remain tracked.
+archive/paper_history/

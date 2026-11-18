@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-18",
+  "benchmark_rerun": false,
+  "adapter_sha256": "981d4eb80b67485346517eea0b8323fec9e6b3cd2bfdf37f64e2f5379fa271af",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "environment_freeze": [
+      "contourpy==1.4.0",
+      "cycler==0.12.1",
+      "duckdb==2.0.0",
+      "fonttools==4.68.0",
+      "kiwisolver==1.5.1",
+      "matplotlib==3.11.2",
+      "numpy==2.5.5",
+      "packaging==26.3",
+      "pillow==13.0.0",
+      "pyparsing==3.3.3",
+      "python-dateutil==4.0.0",
+      "tzdata==2026.6"
+    ]
+  },
+  "checks": [
+    {
+      "command": [
+        "verify-history"
+      ],
+      "expected": "success",
+      "exit_code": 0,
+      "passed": true,
+      "last_message": "{\"ok\": true, \"hashes_checked\": 24, \"main_pairs_checked\": 190, \"optional_data\": [{\"path\": \"data/pilot/1000000/random.parquet\", \"status\": \"absent; history review does not require raw data\"}, {\"path\": \"data/formal/formal_20261117_01/time_sorted.parquet\", \"status\": \"absent; history review does not require raw data\"}]}\n"
+    },
+    {
+      "command": [
+        "run-main",
+        "--run-id",
+        "must_not_run"
+      ],
+      "expected": "refused",
+      "exit_code": 1,
+      "passed": true,
+      "last_message": "ents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\repo_v2\\tools\\reproduce_v2.py\", line 174, in require_workspace\n    require((ROOT/'replay_v2.json').is_file(),'Use create-workspace first; never run benchmarks in the historical repository')\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\repo_v2\\tools\\reproduce_v2.py\", line 39, in require\n    raise ValueError(message)\nValueError: Use create-workspace first; never run benchmarks in the historical repository\n"
+    },
+    {
+      "command": [
+        "run-main",
+        "--run-id",
+        "formal_20261117_01"
+      ],
+      "expected": "refused",
+      "exit_code": 1,
+      "passed": true,
+      "last_message": "                   ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\下载后验证_含 空格\\tools\\reproduce_v2.py\", line 222, in valid_id\n    require(value not in (MAIN_ID,SUPP_ID,'pilot_1m_run1','pilot_1m_run2'),'Historical IDs are protected')\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\下载后验证_含 空格\\tools\\reproduce_v2.py\", line 39, in require\n    raise ValueError(message)\nValueError: Historical IDs are protected\n"
+    },
+    {
+      "command": [
+        "run-pilot",
+        "--label",
+        "pilot_1m_run1"
+      ],
+      "expected": "refused",
+      "exit_code": 1,
+      "passed": true,
+      "last_message": "                    ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\下载后验证_含 空格\\tools\\reproduce_v2.py\", line 222, in valid_id\n    require(value not in (MAIN_ID,SUPP_ID,'pilot_1m_run1','pilot_1m_run2'),'Historical IDs are protected')\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\下载后验证_含 空格\\tools\\reproduce_v2.py\", line 39, in require\n    raise ValueError(message)\nValueError: Historical IDs are protected\n"
+    },
+    {
+      "command": [
+        "run-supplement",
+        "--run-id",
+        "boundary_20261118_01"
+      ],
+      "expected": "refused",
+      "exit_code": 1,
+      "passed": true,
+      "last_message": "                   ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\下载后验证_含 空格\\tools\\reproduce_v2.py\", line 222, in valid_id\n    require(value not in (MAIN_ID,SUPP_ID,'pilot_1m_run1','pilot_1m_run2'),'Historical IDs are protected')\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\下载后验证_含 空格\\tools\\reproduce_v2.py\", line 39, in require\n    raise ValueError(message)\nValueError: Historical IDs are protected\n"
+    },
+    {
+      "command": [
+        "generate-data"
+      ],
+      "expected": "refused",
+      "exit_code": 1,
+      "passed": true,
+      "last_message": "^^^^^^^^\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\下载后验证_含 空格\\tools\\reproduce_v2.py\", line 184, in generate_data\n    require(not (ROOT/'data').exists(),'Refuse to overwrite existing data; create a new workspace')\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\下载后验证_含 空格\\tools\\reproduce_v2.py\", line 39, in require\n    raise ValueError(message)\nValueError: Refuse to overwrite existing data; create a new workspace\n"
+    },
+    {
+      "command": [
+        "create-workspace",
+        "--workspace",
+        "C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\下载后验证_含 空格"
+      ],
+      "expected": "refused",
+      "exit_code": 1,
+      "passed": true,
+      "last_message": "                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\repo_v2\\tools\\reproduce_v2.py\", line 162, in create_workspace\n    require(not dest.exists(), 'Workspace must not already exist')\n  File \"C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\repo_v2\\tools\\reproduce_v2.py\", line 39, in require\n    raise ValueError(message)\nValueError: Workspace must not already exist\n"
+    },
+    {
+      "command": [
+        "analyze-errors",
+        "--out",
+        "C:\\Users\\Administrator\\Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\repo_v2\\results\\posthoc\\error_metrics_v2"
+      ],
+      "expected": "refused",
+      "exit_code": 1,
+      "passed": true,
+      "last_message": "Documents\\Codex\\2026-11-17\\1-h3-workflow-agent-2-3\\work\\repo_v2\\tools\\reproduce_v2.py\", line 104, in error_analysis\n    out.mkdir(parents=True, exist_ok=False)\n  File \"C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\pathlib.py\", line 1311, in mkdir\n    os.mkdir(self, mode)\nFileExistsError: [WinError 183] 当文件已存在时，无法创建该文件。: 'C:\\\\Users\\\\Administrator\\\\Documents\\\\Codex\\\\2026-11-17\\\\1-h3-workflow-agent-2-3\\\\work\\\\repo_v2\\\\results\\\\posthoc\\\\error_metrics_v2'\n"
+    },
+    {
+      "command": [
+        "analyze-main",
+        "--run-id",
+        "analysis_fixture_v2_final"
+      ],
+      "expected": "success",
+      "exit_code": 0,
+      "passed": true,
+      "last_message": "median_positive_n\": 24, \"first_sustained_all_five_positive_n\": 24, \"first_median_10pct_n\": 28, \"first_all_five_10pct_n\": 28}, \"7\": {\"first_any_repeat_positive_n\": 25, \"first_sustained_median_positive_n\": 31, \"first_sustained_all_five_positive_n\": 31, \"first_median_10pct_n\": 36, \"first_all_five_10pct_n\": 36}}, \"prediction_max_error_against_median_pct\": {\"pilot_1m_run1.json\": {\"1\": 7.10891613980879, \"7\": 4.357526550108951}, \"pilot_1m_run2.json\": {\"1\": 3.979403417275395, \"7\": 2.1882323629651337}}}\n"
+    },
+    {
+      "command": [
+        "analyze-supplement",
+        "--run-id",
+        "analysis_fixture_v2_final"
+      ],
+      "expected": "success",
+      "exit_code": 0,
+      "passed": true,
+      "last_message": "\": 32, \"pct\": 22.99316311934376, \"range\": [20.810051222718936, 30.141439154459967], \"passes\": 5}, {\"n\": 34, \"pct\": 25.46931965200206, \"range\": [19.644850699834883, 32.69640772852448], \"passes\": 5}, {\"n\": 36, \"pct\": 29.213085438862848, \"range\": [25.783098399068418, 37.973466886923354], \"passes\": 5}, {\"n\": 40, \"pct\": 33.47383322087318, \"range\": [32.56214283369133, 41.24967578718946], \"passes\": 5}, {\"n\": 50, \"pct\": 44.86867759617508, \"range\": [42.95746898581131, 46.98221562666963], \"passes\": 5}]}}\n"
+    },
+    {
+      "command": [
+        "verify-history"
+      ],
+      "expected": "success",
+      "exit_code": 0,
+      "passed": true,
+      "last_message": "{\"ok\": true, \"hashes_checked\": 24, \"main_pairs_checked\": 190, \"optional_data\": [{\"path\": \"data/pilot/1000000/random.parquet\", \"status\": \"absent; history review does not require raw data\"}, {\"path\": \"data/formal/formal_20261117_01/time_sorted.parquet\", \"status\": \"absent; history review does not require raw data\"}]}\n"
+    }
+  ],
+  "generation": {
+    "benchmark_rerun": false,
+    "performance_timing_collected": false,
+    "purpose": "Regenerate exact historical inputs only; sorting here is not a cost measurement",
+    "duckdb": "2.0.0",
+    "generator_script_sha256": "28f3bfb35cdf2f2e30a493f41099fbcb730b61a9a986ae12d5c6b5afca5aba06",
+    "generator_sql": "SELECT i::BIGINT AS observation_id,\n      TIMESTAMP '2026-06-01' + (hash(i, 1729, 'time') % 2592000)::BIGINT * INTERVAL '1 second' AS event_time,\n      (hash(i, 1729, 'station') % 1000)::INTEGER AS station_id,\n      (10000000 + hash(i, 1729, 'lat') % 35000001)::INTEGER AS latitude_microdeg,\n      (110000000 + hash(i, 1729, 'lon') % 30000001)::INTEGER AS longitude_microdeg,\n      (500 + hash(i, 1729, 'temp') % 2501)::INTEGER AS temperature_centi_c\n      FROM range(1000000) AS t(i)",
+    "files": {
+      "data/pilot/1000000/random.parquet": {
+        "sha256": "1decfa8a5bf59125650d45b12d1b7ab2d94e3cda437ef40ed1e95954e342b46b",
+        "expected_sha256": "1decfa8a5bf59125650d45b12d1b7ab2d94e3cda437ef40ed1e95954e342b46b",
+        "matches": true
+      },
+      "data/formal/formal_20261117_01/time_sorted.parquet": {
+        "sha256": "5ee088818b95ce2c6517d4f95ec0a36b718265863278d18e3ec21293f814ea09",
+        "expected_sha256": "5ee088818b95ce2c6517d4f95ec0a36b718265863278d18e3ec21293f814ea09",
+        "matches": true
+      }
+    }
+  },
+  "prepared_windows_identical_except_selected_at": true,
+  "prepared_source_paths_within_new_workspace": true,
+  "prepared_timing_files_absent": true,
+  "analysis_only_fixture_main_audit_equals_history": true,
+  "analysis_only_fixture_supplement_summary_equals_history": true,
+  "not_tested": [
+    "Successful performance run-main/run-pilot/run-supplement paths",
+    "Actual Git clone",
+    "Other machine/OS/Python",
+    "Cache-free online installation"
+  ],
+  "limitations": "Analysis fixtures contain exact old measurements, not new timing. Reproduction is functional verification only. Install used local wheel cache after network sandbox retry."
+}
