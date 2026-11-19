@@ -1,5 +1,10 @@
 # 海洋数据挖掘：Parquet 排序收益边界
 
+> **AI 协作聊天记录：[点击查看 AI聊天记录.md](./AI聊天记录.md)**
+>
+> **文件名：`AI聊天记录.md`｜位置：仓库根目录（`/AI聊天记录.md`），与本 README 同级。**
+> 保留指定聊天的用户消息、AI 回复和原始顺序；记录截止位置及范围见文件首部。
+
 研究范围：同一份模拟观测表中，一天／七天时间查询的累计成本，以及固定一天时窗口跨行组的影响。已有实验均在预热条件下完成；报告不提供通用的“超过多少次就应排序”建议。
 
 **当前正式论文：[PDF（15 页，根目录提交副本）](模拟海洋观测表的Parquet排序收益边界_正式版.pdf) · [paper 内同版本 PDF](paper/main.pdf) · [LaTeX 主文件](paper/main.tex) · [原创探索专章](paper/innovation.tex) · [完整编译与材料生成说明](paper/README.md)。**
@@ -18,7 +23,7 @@ GitHub 地址：[Homework-Marine-Data-Mining-Technology](https://github.com/dong
 
 ## 正式提交入口
 
-- [指定聊天原始文本 Markdown](挑选课程大作业选题.md)：24 条用户消息、86 条 AI 回复，按原顺序保留，覆盖从选题开始至文件首部注明的本次提交快照边界；不是协作摘要。
+- [指定聊天原始文本 Markdown](AI聊天记录.md)：24 条用户消息、86 条 AI 回复，按原顺序保留，覆盖从选题开始至文件首部注明的本次提交快照边界；不是协作摘要。
 - [聊天导出核查](docs/submission/chat_export_audit.json)：分页终止、消息 ID、顺序和逐条文本哈希。
 - [正式版本冻结清单](docs/submission/frozen_paper_manifest.json)、[提交状态与待办](提交状态.md)、[继续上传与匿名核查](docs/submission/上传与核查说明.md)。根目录正式 PDF 与 `paper/main.pdf` 字节相同。
 - 完整实验记录见 `results/`；只读核查与重跑说明在下文，论文编译说明见 `paper/README.md`。

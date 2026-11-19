@@ -1114,5 +1114,8 @@
       "characters": 90,
       "sha256_utf8": "c6a64cc34054b2e8bd77b56d6511602892f26c5f57dd739c8ab28b49164c583f"
     }
-  ]
+  ],
+  "markdown_file": "AI聊天记录.md",
+  "markdown_location": "repository root",
+  "rename_preserves_message_bytes": true
 }

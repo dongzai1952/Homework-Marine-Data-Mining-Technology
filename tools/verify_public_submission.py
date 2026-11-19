@@ -8,7 +8,7 @@ FILES=[
     '模拟海洋观测表的Parquet排序收益边界_正式版.pdf',
     'paper/main.pdf',
     'paper/main.tex',
-    '挑选课程大作业选题.md',
+    'AI聊天记录.md',
     'report/figures/01_main_cumulative.png',
     'results/formal/formal_20261117_01/measurements.json',
     'results/supplement/boundary_20261118_01/measurements.json',
