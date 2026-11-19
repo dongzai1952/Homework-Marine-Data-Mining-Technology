@@ -10,7 +10,7 @@
 **当前正式论文：[PDF（15 页，根目录提交副本）](模拟海洋观测表的Parquet排序收益边界_正式版.pdf) · [paper 内同版本 PDF](paper/main.pdf) · [LaTeX 主文件](paper/main.tex) · [原创探索专章](paper/innovation.tex) · [完整编译与材料生成说明](paper/README.md)。**
 
 作者：陈立冬，学号：22634016，授课教师：张帆。
-GitHub 地址：[Homework-Marine-Data-Mining-Technology](https://github.com/dongzai1952/Homework-Marine-Data-Mining-Technology)。已通过不带认证的 GitHub API 确认仓库为 Public，当前远程为空；本地材料已整理，上传及文件匿名访问验证尚未完成。最新状态以 [提交状态](提交状态.md) 为准。
+GitHub 地址：[Homework-Marine-Data-Mining-Technology](https://github.com/dongzai1952/Homework-Marine-Data-Mining-Technology)。**材料已上传，仓库为 Public，匿名文件核查已通过。** 核查时间：**2026-11-19 14:48:19（北京时间，UTC+8）**；核查材料提交：[`d355208`](https://github.com/dongzai1952/Homework-Marine-Data-Mining-Technology/commit/d3552088c8f9352509e142df6ac2d94cad9f820e)。正式 PDF、聊天、源码、图片和关键结果共 8 个文件均可不登录下载，SHA-256 与本地一致。详见 [提交状态](提交状态.md) 和 [核查记录](docs/submission/public_check_20261119_01.json)。
 
 当前论文由 14 页“原创探索详解版”完整材料包同步，保留第 5 节并补齐六对配对表和运行目录差异，现为 15 页。替换前的论文与项目 README 独立保存在 `archive/paper_history/`；导入来源与哈希见 [同步记录](paper/audit/import_sync.json)。
 
@@ -25,7 +25,7 @@ GitHub 地址：[Homework-Marine-Data-Mining-Technology](https://github.com/dong
 
 - [指定聊天原始文本 Markdown](AI聊天记录.md)：24 条用户消息、86 条 AI 回复，按原顺序保留，覆盖从选题开始至文件首部注明的本次提交快照边界；不是协作摘要。
 - [聊天导出核查](docs/submission/chat_export_audit.json)：分页终止、消息 ID、顺序和逐条文本哈希。
-- [正式版本冻结清单](docs/submission/frozen_paper_manifest.json)、[提交状态与待办](提交状态.md)、[继续上传与匿名核查](docs/submission/上传与核查说明.md)。根目录正式 PDF 与 `paper/main.pdf` 字节相同。
+- [正式版本冻结清单](docs/submission/frozen_paper_manifest.json)、[提交状态与待办](提交状态.md)、[上传与再次核查说明](docs/submission/上传与核查说明.md)。根目录正式 PDF 与 `paper/main.pdf` 字节相同。
 - 完整实验记录见 `results/`；只读核查与重跑说明在下文，论文编译说明见 `paper/README.md`。
 
 论文正文、源码、图表和历史实验记录在本次收尾中不再修改。论文及旧核查文件内“本次未上传”“尚未核查”等语句反映其形成时状态，当前提交状态单独更新，不倒改历史记录。

@@ -1,0 +1,75 @@
+{
+  "checked_at_utc": "2026-11-19T06:48:19.385686+00:00",
+  "authentication": "none; no Authorization header or cookies",
+  "repository": "https://github.com/dongzai1952/Homework-Marine-Data-Mining-Technology",
+  "checks": [
+    {
+      "file": "模拟海洋观测表的Parquet排序收益边界_正式版.pdf",
+      "url": "https://raw.githubusercontent.com/dongzai1952/Homework-Marine-Data-Mining-Technology/d3552088c8f9352509e142df6ac2d94cad9f820e/%E6%A8%A1%E6%8B%9F%E6%B5%B7%E6%B4%8B%E8%A7%82%E6%B5%8B%E8%A1%A8%E7%9A%84Parquet%E6%8E%92%E5%BA%8F%E6%94%B6%E7%9B%8A%E8%BE%B9%E7%95%8C_%E6%AD%A3%E5%BC%8F%E7%89%88.pdf",
+      "status": 200,
+      "bytes": 618234,
+      "sha256": "b2a6b44a856b449646e39dd0989b960d94b48b3a10e95543a485b066753d7aa5",
+      "matches_local": true
+    },
+    {
+      "file": "paper/main.pdf",
+      "url": "https://raw.githubusercontent.com/dongzai1952/Homework-Marine-Data-Mining-Technology/d3552088c8f9352509e142df6ac2d94cad9f820e/paper/main.pdf",
+      "status": 200,
+      "bytes": 618234,
+      "sha256": "b2a6b44a856b449646e39dd0989b960d94b48b3a10e95543a485b066753d7aa5",
+      "matches_local": true
+    },
+    {
+      "file": "paper/main.tex",
+      "url": "https://raw.githubusercontent.com/dongzai1952/Homework-Marine-Data-Mining-Technology/d3552088c8f9352509e142df6ac2d94cad9f820e/paper/main.tex",
+      "status": 200,
+      "bytes": 35468,
+      "sha256": "82987a4e7ebcab21c9e7a9fb55854dd75cfbd3493305f54cb563aae409bf142a",
+      "matches_local": true
+    },
+    {
+      "file": "AI聊天记录.md",
+      "url": "https://raw.githubusercontent.com/dongzai1952/Homework-Marine-Data-Mining-Technology/d3552088c8f9352509e142df6ac2d94cad9f820e/AI%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95.md",
+      "status": 200,
+      "bytes": 131754,
+      "sha256": "1bb56407eb01a564ad875ee69f493e9532bc36e7d31f96f6becba7cb6e4b38b5",
+      "matches_local": true
+    },
+    {
+      "file": "report/figures/01_main_cumulative.png",
+      "url": "https://raw.githubusercontent.com/dongzai1952/Homework-Marine-Data-Mining-Technology/d3552088c8f9352509e142df6ac2d94cad9f820e/report/figures/01_main_cumulative.png",
+      "status": 200,
+      "bytes": 440218,
+      "sha256": "bce11c4908bd35987ac13bc5d38f97e335f0688a0d0dc324df829480f65b7cb1",
+      "matches_local": true
+    },
+    {
+      "file": "results/formal/formal_20261117_01/measurements.json",
+      "url": "https://raw.githubusercontent.com/dongzai1952/Homework-Marine-Data-Mining-Technology/d3552088c8f9352509e142df6ac2d94cad9f820e/results/formal/formal_20261117_01/measurements.json",
+      "status": 200,
+      "bytes": 153800,
+      "sha256": "cfaafca85cc45396c30d9f0cbd1144aa221744775e6ed5a3e5b4bbf254d817a9",
+      "matches_local": true
+    },
+    {
+      "file": "results/supplement/boundary_20261118_01/measurements.json",
+      "url": "https://raw.githubusercontent.com/dongzai1952/Homework-Marine-Data-Mining-Technology/d3552088c8f9352509e142df6ac2d94cad9f820e/results/supplement/boundary_20261118_01/measurements.json",
+      "status": 200,
+      "bytes": 170017,
+      "sha256": "bf440db3ad1b1fb8eecbd94810abdc56c76d3a2a21329a67404d8ba1d91ee962",
+      "matches_local": true
+    },
+    {
+      "file": "results/posthoc/error_metrics_v2/error_comparison.json",
+      "url": "https://raw.githubusercontent.com/dongzai1952/Homework-Marine-Data-Mining-Technology/d3552088c8f9352509e142df6ac2d94cad9f820e/results/posthoc/error_metrics_v2/error_comparison.json",
+      "status": 200,
+      "bytes": 59501,
+      "sha256": "241f8db4e5cc6e3ba797c5f4f5c148e7d8ce6f6a6f6461cbe15f499d09a3556f",
+      "matches_local": true
+    }
+  ],
+  "ok": true,
+  "repository_api_status": 200,
+  "visibility": "public",
+  "verified_commit": "d3552088c8f9352509e142df6ac2d94cad9f820e"
+}
